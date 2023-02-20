@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Mtools</title>
+</head>
+<body>
+    <div class="cursor"></div>
+    <header class="header">
+        <div class="wrapper">
+            <div class="header__box">
+                <div class="header__logo">
+                    <img src="img/logo.png" class="logo" alt="Главную">
+                </div>
+                <nav class="header__menu">
+                    <a href="#" onclick="openMenu(event)" class="menu__btn">
+                        <span class="menu__btn-element"></span>
+                    </a>
+                    <ul class="header__menu__list">
+                        <li class="header__menu__list__items">
+                            <a class="header__menu__list__link" href="#about">О нас</a>
+                        </li>
+                        <li class="header__menu__list__items">
+                            <a class="header__menu__list__link" href="#privilege">Преимущества</a>
+                        </li>
+                        <li class="header__menu__list__items">
+                            <a class="header__menu__list__link" href="#sandvik">Sandvik Coromant</a>
+                        </li>
+                        <li class="header__menu__list__items">
+                            <a class="header__menu__list__link" href="#clients">Клиент</a>
+                        </li>
+                        <li class="header__menu__list__items">
+                            <a class="header__menu__list__link" href="#contacs">Контакты</a>
+                        </li>
+                        <li class="header__menu__list__items header__menu__list__items--mobile">
+                            <a onclick="openPopup(event)" class="makeup__link" href="#">
+                                <img src="img/pencil.png" alt="Написать">
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="wrapper wrapper--hero">
+            <img class="hero__img" src="img/hero2.webp" alt="TOO Tool World">
+            <div class="die">
+                <img class="die__logo" src="img/sandvik-logo-header.jpg" alt="Logo SANDVIK">
+            </div>
+            <ul class="hero__list">
+                <li class="hero__list__items">Полный сервис</li>
+                <li class="hero__list__items">Готовая продукция</li>
+                <li class="hero__list__items">Пакет документов</li>
+                <li class="hero__list__items">Завод поставщика</li>
+                <li class="hero__list__items">Гарантийный срок</li>
+                <li class="hero__list__items">Доставка</li>
+            </ul>
+            <div class="hero__title">
+                <h1>Являемся официальным представителем Sandvik Coromant на территории Казахстан</h1>
+            </div>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="wrapper">
+            <div class="box">
+                <div class="box__half" data-aos="fade-right" data-aos-duration="600">
+                    <h2 class="section__title"><span id="about-title"></span></h2>
+                    <div class="about__article">
+                        <p>TOO Tool World зарекомендовала себя как надёжного поставщика инструмента на ведущие предприятия машиностроения Казахстана. У нас заключены долгосрочные договора с предприятиями и холдингами страны.</p>
+                        <p>Мы гарантируем оперативную доставку инструмента в кратчайшие сроки, поможем в вопросах грамотной эксплуатации. Обеспечим сервис и гарантийное обслуживание.</p>
+                    </div>
+                </div>
+                <div class="box__half" data-aos="fade-left" data-aos-duration="1000">
+                    <img class="about__img" src="img/about__img.jpg" alt="О компании">
+                </div>
+            </div>
+            <div class="box__about" id="privilege">
+                <div data-aos="fade-up" data-aos-duration="600" class="box__quarter box__quarter--dnone"></div>
+                <div data-aos="fade-up" data-aos-duration="800" class="box__quarter">
+                    <div class="box__quarte__inner box__quarte__inner--beige">
+                        <h3>Уверенность в хорошем качестве инструментов</h3>
+                        <p>Наша компания производит комплексное инструментальное оснащение станков</p>
+                    </div>
+                </div>
+                <div data-aos="fade-up" data-aos-duration="1000" class="box__quarter">
+                    <div class="box__quarte__inner--pictures-tool"></div>
+                </div>
+                <div data-aos="fade-up" data-aos-duration="1200" class="box__quarter">
+                    <div class="box__quarte__inner box__quarte__inner--lavender">
+                        <h3>Приятные цены и скидки</h3>
+                        <p>Наша компания производит комплексное инструментальное оснащение станков</p>
+                    </div>
+                </div>
+                <div data-aos="fade-up" data-aos-duration="1200" class="box__quarter box__quarter--dnone"></div>
+                <div data-aos="fade-up" data-aos-duration="1400" class="box__quarter">
+                    <div class="box__quarte__inner--pictures-drill"></div>
+                </div>
+                <div data-aos="fade-up" data-aos-duration="1600" class="box__quarter">
+                    <div class="box__quarte__inner box__quarte__inner--blue">
+                        <h3>Соответствие продукции стандартам</h3>
+                        <p>Наша компания производит комплексное инструментальное оснащение станков</p>
+                    </div>
+                </div>
+                <div data-aos="fade-up" data-aos-duration="1800" class="box__quarter">
+                    <div class="box__quarte__inner box__quarte__inner--paleblue">
+                        <h3>Полный комплекс технических документов</h3>
+                        <p>Наша компания производит комплексное инструментальное оснащение станков</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="fields fields--top"></div>
+    </section>
+    <section class="partner" id="sandvik">
+        <div class="wrapper">
+            <div class="box">
+                <div class="box__half" data-aos="fade-right" data-aos-duration="600">
+                    <h2 class="section__title section__title--white">Sandvik Coromant</h2>
+                    <div class="about__article about__article--white">
+                        <p>Мы являемся поставщиком продукции компании Sandvik Coromant в Казахстане. Данная компания предлагает лучший инструмент для металлообработки, а также высокоэффективные технологические решения, которые позволяют заказчикам получать отличные результаты во время работы с инструментом.</p>
+                    </div>
+                </div>
+                <div class="box__half" data-aos="fade-left" data-aos-duration="1000">
+                    <div class="sandvik__img"></div>
+                    <!--<img class="about__img" src="img/sandvik-factory.jpg" alt="Sandvik Coromant">-->
+                </div>
+            </div>
+            <div class="box box--partner" id="partner">
+                <div class="box__half" data-aos="fade-right" data-aos-duration="600">
+                    <img class="partner__img" src="img/sandvik-partner-logo.jpg" alt="">
+                </div>
+                <div class="box__half" data-aos="fade-left" data-aos-duration="1000">
+                    <div class="about__article about__article--white">
+                        <p>Sandvik Coromant — международная компания, которая занимается производством режущего инструмента для металлообработки. Представительства Sandvik Coromant работают более чем в 130 странах мира, в том числе и в Казахстане.</p>
+                        <p>Инструменты Sandvik Coromant обладают большим количеством преимуществ по сравнению с другими компаниями:</p>
+                        <p>— Sandvik Coromant имеет свой исследовательский и испытательный центр, который обеспечивает выпуск только лучшей продукции для каждой сферы производства;</p>
+                        <p>— специальные твёрдые сплавы гарантируют хорошую производительность и продолжительный срок службы инструмента;</p>
+                        <p>Инструменты Sandvik Coromant являются признанными мировыми лидерами среди металлорежущего инструмента.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="partnerField" class="fields"></div>
+    </section>
+    <footer class="footer" id="contacs">
+        <div class="wrapper">
+            <div class="footer__box">
+                <div class="footer__box__items">
+                    <ul class="header__menu__list header__menu__list--footer">
+                        <li class="header__menu__list__items header__menu__list__items--footer">
+                            <a class="header__menu__list__link header__menu__list__link--black" href="#about">О нас</a>
+                        </li>
+                        <li class="header__menu__list__items header__menu__list__items--footer">
+                            <a class="header__menu__list__link header__menu__list__link--black" href="#privilege">Преимущества</a>
+                        </li>
+                        <li class="header__menu__list__items header__menu__list__items--footer">
+                            <a class="header__menu__list__link header__menu__list__link--black" href="#sandvik">Sandvik Coromant</a>
+                        </li>
+                        <li class="header__menu__list__items header__menu__list__items--footer">
+                            <a class="header__menu__list__link header__menu__list__link--black" href="#clients">Клиент</a>
+                        </li>
+                        <li class="header__menu__list__items header__menu__list__items--footer">
+                            <a class="header__menu__list__link header__menu__list__link--black" href="#contacs">Контакты</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__box__items"></div>
+                <div class="footer__box__items" data-aos="fade-left" data-aos-duration="600">
+                    <div class="footer__box__address">
+                        <p>ТОО «Tool World (Мир инструмента)»</p>
+                        <p>010000, Республика Казахстан</p>
+                        <p>г. Астана, проспект Сарыарка 37, офис 10</p>
+                    </div>
+                    <div class="footer__box__clock">
+                        <div class="footer__box__clock__items">
+                            <p>Пн — Пт: 8:00 — 17:00</p>
+                            <div class="days">
+                                <span class="days__items">•</span>
+                                <span class="days__items">•</span>
+                                <span class="days__items">•</span>
+                                <span class="days__items">•</span>
+                                <span class="days__items">•</span>
+                                <span class="days__items days__items--weekend">•</span>
+                                <span class="days__items days__items--weekend">•</span>
+                            </div>
+                        </div>
+                        <div class="footer__box__clock__items footer__box__clock__items--right">
+                            <a class="footer__link" href="tel:+77074246924">+77074246924</a>
+                            <a class="footer__link" href="tel:+77055675292">+77055675292</a>
+                        </div>
+                    </div>
+                    <div class="footer__box__email">
+                        <a class="footer__link" href="mailto:toolworldkz@gmail.com">toolworldkz@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+            <div class="cooperation" id="clients" data-aos="fade-right" data-aos-duration="600">
+                <div class="cooperation__items cooperation__items--border-bottom-none">
+                    <a href="https://www.stpz.kz/" target="_blank">
+                        <img class="cooperation__img" src="img/cooperation-01.jpg" alt="">
+                    </a>
+                </div>
+                <div class="cooperation__items cooperation__items--border-bottom-none">
+                    <a href="https://aolkz.kz/kz/" target="_blank">
+                        <img class="cooperation__img" src="img/cooperation-02.jpg" alt="">
+                    </a>
+                </div>
+                <div class="cooperation__items">
+                    <img class="cooperation__img" src="img/cooperation-03.jpg" alt="">
+                </div>
+                <div class="cooperation__items cooperation__items--border-right-none">
+                    <img class="cooperation__img" src="img/cooperation-04.jpg" alt="">
+                </div>
+                <div class="cooperation__items cooperation__items--border-bottom-none">
+                    <img class="cooperation__img" src="img/cooperation-01.jpg" alt="">
+                </div>
+                <div class="cooperation__items cooperation__items--border-bottom-none">
+                    <img class="cooperation__img" src="img/cooperation-02.jpg" alt="">
+                </div>
+                <div class="cooperation__items cooperation__items--border-bottom-none">
+                    <img class="cooperation__img" src="img/cooperation-03.jpg" alt="">
+                </div>
+                <div class="cooperation__items cooperation__items--border-bottom-none">
+                    <img class="cooperation__img" src="img/cooperation-04.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <section class="copy">
+        <div class="wrapper">
+            <a class="footer__link" href="https://nastarte.by/">Дизайн и разработка — NaStarte</a>
+        </div>
+        <div class="fields fields--bottom"></div>
+    </section>
+    <section class="popup">
+        <div class="wrapper wrapper--popup">
+            <button class="popup__close" onclick="openPopup(event)">
+                <svg class="popup__close__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+                    <path d="M 7 4 C 6.744125 4 6.4879687 4.0974687 6.2929688 4.2929688 L 4.2929688 6.2929688 C 3.9019687 6.6839688 3.9019687 7.3170313 4.2929688 7.7070312 L 11.585938 15 L 4.2929688 22.292969 C 3.9019687 22.683969 3.9019687 23.317031 4.2929688 23.707031 L 6.2929688 25.707031 C 6.6839688 26.098031 7.3170313 26.098031 7.7070312 25.707031 L 15 18.414062 L 22.292969 25.707031 C 22.682969 26.098031 23.317031 26.098031 23.707031 25.707031 L 25.707031 23.707031 C 26.098031 23.316031 26.098031 22.682969 25.707031 22.292969 L 18.414062 15 L 25.707031 7.7070312 C 26.098031 7.3170312 26.098031 6.6829688 25.707031 6.2929688 L 23.707031 4.2929688 C 23.316031 3.9019687 22.682969 3.9019687 22.292969 4.2929688 L 15 11.585938 L 7.7070312 4.2929688 C 7.5115312 4.0974687 7.255875 4 7 4 z"></path>
+                </svg>
+            </button>
+            <div class="popup__header">
+                <h6 class="popup__title"><span id="popupTitle"></span></h6>
+            </div>
+            <div class="popup__body">
+                <form class="form" action="#">
+                    <label class="form__label" for="firstname">Имя <span>*</span> <small>(как к вам обращаться)</small></label>
+                    <input class="form__input" type="text" name="firstname" id="firstname">
+                    <label class="form__label" for="firstname">Телефон <span>*</span> <small>(наш специалист свяжется с вами по этому номеру)</small></label>
+                    <input class="form__input form__input--last" type="tel" inputmode="tel" name="phone" id="phone">
+                    <div class="form__error"></div>
+                    <button class="form__submit" type="submit" >Отправить запрос</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <script src="js/main.js"></script>
+    <script>AOS.init();</script>
+</body>
+</html>
